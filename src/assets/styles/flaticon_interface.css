@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "flaticon_interface";
+    src: url("../Interface/font/flaticon_interfacecd62.ttf") format("truetype"),
+url("../Interface/font/flaticon_interfacecd62.woff") format("woff"),
+url("../Interface/font/flaticon_interfacecd62.html") format("woff2"),
+url("../Interface/font/flaticon_interfacecd62.eot") format("embedded-opentype"),
+url("../Interface/font/flaticon_interfacecd62.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_interface !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-personal:before {
+    content: "\f101";
+}
+.flaticon-accomodation:before {
+    content: "\f102";
+}
+.flaticon-life-insurance:before {
+    content: "\f103";
+}
+.flaticon-visa:before {
+    content: "\f104";
+}
+.flaticon-user:before {
+    content: "\f105";
+}
+.flaticon-presentation:before {
+    content: "\f106";
+}
+.flaticon-resume:before {
+    content: "\f107";
+}
+.flaticon-document:before {
+    content: "\f108";
+}
+.flaticon-university:before {
+    content: "\f109";
+}
+.flaticon-resume-1:before {
+    content: "\f10a";
+}
+.flaticon-money-transfer:before {
+    content: "\f10b";
+}
