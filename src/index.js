@@ -4,4 +4,8 @@ import App from './App';
 
 // ✅ Create root using createRoot
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(
+  <div className="page-wrapper">
+    <App />
+  </div>
+);

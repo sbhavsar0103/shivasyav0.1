@@ -59,11 +59,7 @@ const FeaturesSection = () => {
           <div className="fact-counter">
             <div className="row">
               {features.map((item, index) => (
-                <div
-                  key={index}
-                  className="counter-block col-lg-2 col-md-6 col-sm-3 wow fadeInUp"
-                  data-wow-delay={item.delay}
-                >
+                <div key={index} className="counter-block col-lg-2 col-md-6 col-sm-3 wow fadeInUp" data-wow-delay={item.delay}>
                   <div className="inner">
                     <i className="icon">
                       <img src={item.image} alt={item.country} />

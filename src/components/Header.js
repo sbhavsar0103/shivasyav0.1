@@ -5,17 +5,14 @@ import logo from '../assets/images/logo.png';
 const Header = () => {
   return (
     <header className="main-header header-style-one">
-      {/* Header Lower */}
       <div className="header-lower">
         <div className="main-box">
-          {/* Logo Box */}
           <div className="logo-box">
             <div className="logo">
               <Link to="/"><img src={logo} alt="Venturi Logo" title="venturi-logo" /></Link>
             </div>
           </div>
 
-          {/* Nav Box */}
           <div className="nav-outer">
             <nav className="nav main-menu">
               <ul className="navigation">
@@ -26,7 +23,6 @@ const Header = () => {
               </ul>
             </nav>
 
-            {/* Outer Box */}
             <div className="outer-box">
               <Link to="/contact" className="theme-btn btn-style-one bg-theme-color3">
                 <span className="btn-title">Sign up for a FREE CONSULTATION</span>
@@ -37,7 +33,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <div className="mobile-menu">
         <div className="menu-backdrop"></div>
 
@@ -50,7 +45,6 @@ const Header = () => {
           </div>
 
           <ul className="navigation clearfix">
-            {/* This could be filled dynamically */}
           </ul>
 
           <ul className="contact-list-one">
@@ -72,7 +66,6 @@ const Header = () => {
         </nav>
       </div>
 
-      {/* Sticky Header */}
       <div className="sticky-header">
         <div className="auto-container">
           <div className="inner-container">
@@ -83,7 +76,6 @@ const Header = () => {
               <nav className="main-menu">
                 <div className="navbar-collapse show collapse clearfix">
                   <ul className="navigation clearfix">
-                    {/* Can be dynamically rendered */}
                   </ul>
                 </div>
               </nav>
