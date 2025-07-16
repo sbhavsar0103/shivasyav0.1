@@ -5,6 +5,7 @@ import PartnerUniversities from '../components/PartnerUniversities';
 import PopularCourses from '../components/PopularCourses';
 import EightStepsSection from '../components/EightStepsSection';
 import FewReasons from '../components/FewReasons';
+import AbousComponet from '../components/AboutPage/AboutUs';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <PopularCourses />
       <EightStepsSection />
       <FewReasons />
+      <AbousComponet />
     </div>
   );
 };

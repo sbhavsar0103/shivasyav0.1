@@ -19,6 +19,7 @@ const Header = () => {
                 <li className="current"><Link to="/">Home</Link></li>
                 <li><Link to="/about">About Venturi</Link></li>
                 <li><Link to="/services">Our Services</Link></li>
+                <li><Link to="/contact">Coaching</Link></li>
                 <li><Link to="/contact">Contact Us</Link></li>
               </ul>
             </nav>
